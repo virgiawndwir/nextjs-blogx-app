@@ -1,0 +1,20 @@
+.productImageCover {
+  position: relative;
+  transition: transform .5s;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+.parent:hover .productImageCover {
+  filter: blur(1px) !important;
+  -webkit-filter: blur(1px) !important;
+  transform: scale(0.9);
+}
+.parent .productImageCover:hover  {
+  z-index: 10;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1);
+  filter: none !important;
+  -webkit-filter: none !important;
+}

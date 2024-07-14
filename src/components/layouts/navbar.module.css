@@ -1,0 +1,19 @@
+.navLink {
+  font-size: 14px;
+}
+
+.btnSubscribe {
+  position: relative;
+  transition: transform .5s !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  border-radius: 0;
+}
+
+.btnSubscribe:hover {
+  -ms-transform: scale(1.1) !important; /* IE 9 */
+  -webkit-transform: scale(1.1) !important; /* Safari 3-8 */
+  transform: scale(1.1) !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
