@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project created with [`create-next-app`
 ## Getting Started
 
 1. Clone this project first,
-2. Run `npm install` or `yarn install` (if you using yarn) in your terminal to install dependencies,
+2. Run `npm install` or `yarn install` (if using yarn) in your terminal to install dependencies,
 3. Project can be run!
 
 First, run the development server:
