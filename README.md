@@ -25,3 +25,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## Already Deployed on Vercel!
 
 Check out this link currently [NBlogx Website](https://nextjs-blogx-app.vercel.app/posts) to see the result.
+
+### Design References :
+* https://dribbble.com/shots/20082667-Minimal-blog-post-Untitled-UI
+* https://cdn.dribbble.com/users/439063/screenshots/18064353/media/9747098b8829968c0e0ce0032ba05802.png
+* https://dribbble.com/shots/23179212-Comments
