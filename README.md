@@ -24,5 +24,4 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Already Deployed on Vercel!
 
-Check out this link currently [NBlogx Website](https://vercel.com/virgiawndwirs-projects/nextjs-blogx-app/5gDbeeh3du1U8CMDMcFZiWCMg2x3
-) to see the result.
+Check out this link currently [NBlogx Website](https://nextjs-blogx-app.vercel.app/posts) to see the result.
