@@ -1,4 +1,5 @@
 import Button from '@/components/ui/Button/Button';
+import Container from '@/components/ui/Container/Container';
 import React from 'react';
 
 export default function Pagination({ totalPosts, setPage, page }) {
@@ -21,19 +22,18 @@ export default function Pagination({ totalPosts, setPage, page }) {
   }
 
   return (
-    <div className="flex justify-center items-center mt-4 pt-8">
-      <Button variant="primary" className={"rounded-none shadow-md mr-5"} disabled={page <= 1} onClick={() => setPage(page - 1)}>
+    <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-center items-center mt-4 pt-8 gap-4">
+      <Button variant="primary" className={"text-xs sm:text-sm md:text-md lg:text-base xl:text-base rounded-none shadow-md w-full sm:w-full md:w-auto lg:w-auto xl:w-auto"} disabled={page <= 1} onClick={() => setPage(page - 1)}>
         Previous
       </Button>
       <div className="flex space-x-2">
         {pageNumbers.map((number, index) => (
           <React.Fragment key={index}>
             {number === '...' ? (
-              <span className="flex items-center justify-center px-3">...</span>
+              <span className="flex items-center justify-center px-2">...</span>
             ) : (
               <Button
-                variant=""
-                className={`rounded-none shadow-md ${number === page ? 'bg-blue-500 text-white border-2 border-blue-500' : 'bg-transparent text-[#242424] border-2 '}`}
+                className={`text-xs sm:text-sm md:text-md lg:text-base xl:text-base rounded-none shadow-md ${number === page ? 'bg-blue-500 text-white border-2 border-blue-500' : 'bg-transparent text-[#242424] border-2 '}`}
                 onClick={() => setPage(number)}
               >
                 {number}
@@ -42,7 +42,7 @@ export default function Pagination({ totalPosts, setPage, page }) {
           </React.Fragment>
         ))}
       </div>
-      <Button variant="primary" className={"rounded-none shadow-md ms-5"} disabled={page >= totalPages} onClick={() => setPage(page + 1)}>
+      <Button variant="primary" className={"text-xs sm:text-sm md:text-md lg:text-base xl:text-base rounded-none shadow-md w-full sm:w-full md:w-auto lg:w-auto xl:w-auto"} disabled={page >= totalPages} onClick={() => setPage(page + 1)}>
         Next
       </Button>
     </div>
